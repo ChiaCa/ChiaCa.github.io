@@ -1,14 +1,6 @@
-<?php 
-    // 預設條件
-    if(!$page){
-        $page = 1;
-    }
-    if(!$page_count){
-        $page_count = 10;
-    }
-?>
-<input type="hidden" id="search_areaSelect" value="<?php echo $areaId; ?>">
-<input type="hidden" id="search_name" value="<?php echo $name; ?>">
+
+<input type="hidden" id="search_areaSelect" value="">
+<input type="hidden" id="search_name" value="">
 <div class="contentsBox padding_0 margin_bottom_10 textLeft">
     <div class="contentsTitle green">篩選條件</div>
     <div class="contentsList">
@@ -21,7 +13,7 @@
                     </div>
                     <div class="textLeft width_350px inline_block">
                         <label class="label width_150px textRight">機台編號(爐次)： </label>
-                        <input id="name" class="personal_div width_220px height_auto align_middle" value="<?php echo $name; ?>">
+                        <input id="name" class="personal_div width_220px height_auto align_middle" value="">
                     </div>
                 </div>
             </div>
